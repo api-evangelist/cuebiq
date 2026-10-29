@@ -64,5 +64,135 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Cuebiq is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+Cuebiq provides location intelligence solutions for brands, agencies, and researchers, turning real‑world movement data into actionable marketing insights. Their platform offers footfall measurement, audience targeting, data platform services, and a suite of resources such as privacy center, blog, case studies, and benchmarks. Cuebiq helps clients understand how people move, shop, and engage, enabling smarter decisions through detailed location analytics and exposure measurement.
+
+**Areas:** Company · Location Intelligence · Marketing · Data Analytics · Footfall-Measurement
+
+## Cuebiq on APIs.io
+
+Everything profiled for Cuebiq is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/cuebiq/](https://apis.io/providers/cuebiq/)** — or go straight to one of the APIs or properties below.
+
+### APIs (9)
+
+- [Cuebiq Conversion Feed V1 API](https://apis.io/apis/cuebiq/cuebiq-conversion-feed-v1-api/) — The Conversion Feed V1 API from Cuebiq — 1 operation(s) for conversion feed v1.
+- [Cuebiq Geoset API](https://apis.io/apis/cuebiq/cuebiq-geoset-api/) — The endpoints managing geosets
+- [Cuebiq KPIs V2 - Campaign Reports API](https://apis.io/apis/cuebiq/cuebiq-kpis-v2-campaign-reports-api/) — The KPIs V2 - Campaign Reports API from Cuebiq — 12 operation(s) for kpis v2 - campaign reports.
+- [Cuebiq KPIs V2 - Campaigns API](https://apis.io/apis/cuebiq/cuebiq-kpis-v2-campaigns-api/) — The KPIs V2 - Campaigns API from Cuebiq — 10 operation(s) for kpis v2 - campaigns.
+- [Cuebiq KPIs V2 - Customer API](https://apis.io/apis/cuebiq/cuebiq-kpis-v2-customer-api/) — The KPIs V2 - Customer API from Cuebiq — 1 operation(s) for kpis v2 - customer.
+- [Cuebiq KPIs V2 - Shared Campaign Reports API](https://apis.io/apis/cuebiq/cuebiq-kpis-v2-shared-campaign-reports-api/) — The KPIs V2 - Shared Campaign Reports API from Cuebiq — 11 operation(s) for kpis v2 - shared campaign reports.
+- [Cuebiq KPIs V2 - Shared Campaigns API](https://apis.io/apis/cuebiq/cuebiq-kpis-v2-shared-campaigns-api/) — The KPIs V2 - Shared Campaigns API from Cuebiq — 9 operation(s) for kpis v2 - shared campaigns.
+- [Cuebiq KPIs V2 - Shared Reports API](https://apis.io/apis/cuebiq/cuebiq-kpis-v2-shared-reports-api/) — The KPIs V2 - Shared Reports API from Cuebiq — 11 operation(s) for kpis v2 - shared reports.
+- [Cuebiq Measurement V2 API](https://apis.io/apis/cuebiq/cuebiq-measurement-v2-api/) — The Measurement V2 API from Cuebiq — 16 operation(s) for measurement v2.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Cuebiq Agentic Access](https://apis.io/agentic-access/cuebiq/cuebiq-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Campaign](https://apis.io/schemas/cuebiq/cuebiq-campaign/)
+- [CreateCampaignReportRequest](https://apis.io/schemas/cuebiq/cuebiq-create-campaign-report-request/)
+- [CreateCampaignRequest](https://apis.io/schemas/cuebiq/cuebiq-create-campaign-request/)
+- [KpiAnalysisByCut](https://apis.io/schemas/cuebiq/cuebiq-kpi-analysis-by-cut/)
+- [PerformanceKpis](https://apis.io/schemas/cuebiq/cuebiq-performance-kpis/)
+- [PostGeosetRequestBodyRaw](https://apis.io/schemas/cuebiq/cuebiq-post-geoset-request-body-raw/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Cuebiq Context](https://apis.io/jsonld/cuebiq/cuebiq-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Cuebiq API Rules](https://apis.io/rules/cuebiq/cuebiq-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Cuebiq Authentication](https://apis.io/security/cuebiq/cuebiq-authentication/)
+- [Cuebiq Domain Security](https://apis.io/security/cuebiq/cuebiq-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Cuebiq Scopes](https://apis.io/scopes/cuebiq/cuebiq-scopes/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://cuebiq.com/)
+- [API reference](https://openapi.cuebiq.com/)
+- [Pricing](https://cuebiq.com/pricing/)
+- [Blog](https://cuebiq.com/blog/)
+- [Terms of service](https://cuebiq.com/termsofservice/)
+- [Privacy policy](https://cuebiq.com/privacy-policy/)
+- [GitHub](https://github.com/Cuebiq)
+
+## API Evangelist rating
+
+**Kin Score 37.8** — thin · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 69.6 |
+| Contract quality | 57.7 |
+| Contract governance | 22.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 23.2 |
+| Access clarity | 31.6 |
+
+**Agent readiness 26.4** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | negotiable (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | derived (partial credit) |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | mostly |
+
+**Regulatory alignment 34.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/cuebiq/](https://apis.io/providers/cuebiq/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Cuebiq: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/cuebiq/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
